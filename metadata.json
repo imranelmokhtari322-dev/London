@@ -1,0 +1,6 @@
+{
+  "name": "IPTV London",
+  "description": "Premium High-Speed IPTV subscription for the UK market with developer-grade clarity, in Vercel's elegant minimal UI style.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

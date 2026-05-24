@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//usr/local/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(/bin/bash -l -c 'which npm')",
+      "Bash(curl -fsSL https://nodejs.org/dist/v22.14.0/node-v22.14.0.pkg -o /tmp/node-install.pkg)",
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(open *)",
+      "Bash(cursor *)",
+      "WebSearch",
+      "WebFetch(domain:www.themoviedb.org)",
+      "WebFetch(domain:www.bestagencies.co.uk)",
+      "WebFetch(domain:www.statista.com)",
+      "WebFetch(domain:commons.wikimedia.org)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:www.boxofficemojo.com)",
+      "WebFetch(domain:www.saltypopcorn.co.uk)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "Bash(npx tsc *)",
+      "Bash(curl *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git --version)",
+      "Bash(brew --version)",
+      "Bash(/opt/homebrew/bin/git --version)",
+      "Bash(/usr/local/bin/git --version)",
+      "Bash(npx vercel *ecte na)"
+    ]
+  }
+}
