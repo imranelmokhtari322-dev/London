@@ -39,7 +39,7 @@ function ChannelCard({ channel }: { channel: Channel }) {
   return (
     <div className="shrink-0 w-44 mx-2 bg-white border border-neutral-200 rounded-2xl p-4 flex flex-col items-center justify-center gap-2 shadow-sm hover:shadow-md transition-all duration-200 group">
       <div className="flex items-center justify-center text-center px-2">
-        <span className="font-sans font-extrabold text-sm text-neutral-900 leading-tight tracking-tight">
+        <span className="font-sans font-extrabold text-sm text-red-600 leading-tight tracking-tight">
           {channel.name}
         </span>
       </div>
