@@ -20,7 +20,7 @@ export default function FaqSection() {
           <HelpCircle className="w-2.5 h-2.5" />
           Support Knowledgebase
         </div>
-        <h2 className="font-serif text-3xl sm:text-5xl text-white tracking-tight">
+        <h2 className="font-display text-3xl sm:text-5xl text-white tracking-wide uppercase">
           UK Streaming Help & FAQs
         </h2>
         <p className="font-sans text-xs sm:text-sm text-neutral-400 max-w-lg mx-auto leading-relaxed">

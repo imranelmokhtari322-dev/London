@@ -63,7 +63,7 @@ export default function CheckoutModal({ isOpen, selectedPlanId, onClose }: Check
           <form onSubmit={handleSubmit} className="space-y-5 text-left">
             <div className="flex items-center gap-2 mb-2">
               <ShoppingCart className="w-5 h-5 text-red-500" />
-              <h3 className="font-serif text-xl sm:text-2xl text-white font-medium">Secure Delivery Activation</h3>
+              <h3 className="font-display text-2xl sm:text-3xl text-white tracking-wide uppercase">Secure Delivery Activation</h3>
             </div>
             <p className="font-sans text-xs text-neutral-400 leading-relaxed">
               Verify your package terms. Accounts are provisioned and delivery links sent over secure encryption lines inside 15 minutes.
@@ -245,7 +245,7 @@ export default function CheckoutModal({ isOpen, selectedPlanId, onClose }: Check
             </div>
 
             <div className="space-y-2 select-none">
-              <h3 className="font-serif text-2xl text-white font-medium">Telemetry Connected!</h3>
+              <h3 className="font-display text-3xl text-white tracking-wide uppercase">Telemetry Connected!</h3>
               <p className="font-sans text-xs text-neutral-400 max-w-sm mx-auto leading-relaxed">
                 Your dispatch protocol is live. We have registered your hardware with target host <strong className="font-mono text-white">ukstream.london</strong>.
               </p>

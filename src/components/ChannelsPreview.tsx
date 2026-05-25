@@ -34,7 +34,7 @@ export default function ChannelsPreview() {
           <Radio className="w-2.5 h-2.5 animate-pulse" />
           Server Status: Fully Loaded
         </div>
-        <h2 className="font-serif text-3xl sm:text-5xl text-neutral-900 tracking-tight">
+        <h2 className="font-display text-3xl sm:text-5xl text-neutral-900 tracking-wide uppercase">
           Live UK Channel Preview & EPG
         </h2>
         <p className="font-sans text-xs sm:text-sm text-neutral-500 max-w-xl mx-auto">

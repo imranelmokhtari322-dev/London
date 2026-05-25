@@ -93,7 +93,7 @@ export default function ChannelLogosSlider() {
               <Tv className="w-2.5 h-2.5" />
               18,500+ Live Channels Available
             </div>
-            <h2 className="font-serif italic text-3xl sm:text-5xl text-white tracking-tight">
+            <h2 className="font-display text-3xl sm:text-5xl text-white tracking-wide uppercase">
               Premium UK Channel Lineup
             </h2>
             <p className="font-sans text-xs text-neutral-400 max-w-md leading-relaxed">

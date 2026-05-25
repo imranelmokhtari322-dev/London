@@ -20,7 +20,7 @@ export default function PricingSection({ onOpenCheckout }: PricingSectionProps) 
           <ShieldCheck className="w-3.5 h-3.5 text-amber-500" />
           <span className="font-mono text-[9px] uppercase tracking-widest">Transparency Pledge: No Hidden Surcharges</span>
         </div>
-        <h2 className="font-serif text-3xl sm:text-5xl text-white tracking-tight">
+        <h2 className="font-display text-3xl sm:text-5xl text-white tracking-wide uppercase">
           Transparent UK IPTV Subscriptions
         </h2>
         <p className="font-sans text-xs sm:text-sm text-neutral-400 max-w-lg mx-auto leading-relaxed">
