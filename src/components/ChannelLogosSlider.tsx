@@ -89,7 +89,7 @@ const CATEGORY_COLORS: Record<string, string> = {
 
 function LogoCard({ name, logo, category }: { name: string; logo: string; category: string }) {
   return (
-    <div className="shrink-0 w-40 mx-2 bg-neutral-900 border border-neutral-800 rounded-2xl p-4 flex flex-col items-center justify-center gap-3 shadow-md hover:border-neutral-600 hover:bg-neutral-800 transition-colors duration-200 group">
+    <div className="shrink-0 w-40 mx-2 bg-white border border-neutral-200 rounded-2xl p-4 flex flex-col items-center justify-center gap-3 shadow-md hover:border-neutral-400 hover:shadow-lg transition-all duration-200 group">
       <div className="h-12 flex items-center justify-center">
         <img
           src={logo}
@@ -107,7 +107,7 @@ function LogoCard({ name, logo, category }: { name: string; logo: string; catego
         </div>
       </div>
       <div className="text-center space-y-0.5">
-        <p className="font-sans text-[11px] font-semibold text-neutral-900 leading-tight">{name}</p>
+        <p className="font-sans text-[11px] font-semibold text-neutral-800 leading-tight">{name}</p>
         <p className={`font-mono text-[8px] uppercase tracking-wider ${CATEGORY_COLORS[category] ?? 'text-neutral-500'}`}>
           {category}
         </p>
