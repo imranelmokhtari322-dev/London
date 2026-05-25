@@ -65,7 +65,7 @@ function ChannelCard({ channel }: { channel: Channel }) {
 function CategoryBlock({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="border border-neutral-700 rounded-2xl p-4">
-      <p className="font-mono text-[9px] uppercase tracking-widest text-neutral-400 mb-3">{title}</p>
+      <p className="font-mono text-[9px] uppercase tracking-widest text-red-500 mb-3">{title}</p>
       {children}
     </div>
   );
