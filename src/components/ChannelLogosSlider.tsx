@@ -1,4 +1,4 @@
-import { Tv } from 'lucide-react';
+import { Tv } from 'lucide-react'; // kept for section badge icon
 
 interface Channel {
   id: string;
@@ -37,24 +37,13 @@ const CATEGORY_COLORS: Record<string, string> = {
 
 function ChannelCard({ channel }: { channel: Channel }) {
   return (
-    <div className="shrink-0 w-44 mx-2 bg-white border border-neutral-200 rounded-2xl p-4 flex flex-col items-center justify-center gap-3 shadow-sm hover:shadow-md transition-all duration-200 group">
-      <div className="h-12 flex items-center justify-center">
-        <img
-          src={channel.logo}
-          alt={channel.name}
-          className="max-h-10 max-w-[120px] w-auto object-contain"
-          onError={(e) => {
-            (e.currentTarget as HTMLImageElement).style.display = 'none';
-            const fallback = e.currentTarget.nextElementSibling as HTMLElement;
-            if (fallback) fallback.style.display = 'flex';
-          }}
-        />
-        <div style={{ display: 'none' }} className="items-center justify-center">
-          <Tv className="w-8 h-8 text-neutral-400" />
-        </div>
+    <div className="shrink-0 w-44 mx-2 bg-white border border-neutral-200 rounded-2xl p-4 flex flex-col items-center justify-center gap-2 shadow-sm hover:shadow-md transition-all duration-200 group">
+      <div className="flex items-center justify-center text-center px-2">
+        <span className="font-sans font-extrabold text-sm text-neutral-900 leading-tight tracking-tight">
+          {channel.name}
+        </span>
       </div>
-      <div className="text-center space-y-0.5">
-        <p className="font-sans text-[11px] font-semibold text-neutral-900 leading-tight">{channel.name}</p>
+      <div className="text-center">
         <p className={`font-mono text-[8px] uppercase tracking-wider ${CATEGORY_COLORS[channel.category] ?? 'text-red-500'}`}>
           {channel.category}
         </p>
