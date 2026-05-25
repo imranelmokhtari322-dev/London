@@ -42,7 +42,10 @@
       "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre/Capture d'écran 2026-05-25 à 13.33.56.png\" /tmp/img3.png)",
       "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre/Capture d'écran 2026-05-25 à 13.34.02.png\" /tmp/img4.png)",
       "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre/Capture d'écran 2026-05-25 à 13.34.07.png\" /tmp/img5.png)",
-      "Bash(xxd)"
+      "Bash(xxd)",
+      "WebFetch(domain:brandslogos.com)",
+      "WebFetch(domain:seeklogo.com)",
+      "WebFetch(domain:cdnlogo.com)"
     ]
   }
 }

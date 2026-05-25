@@ -8,23 +8,23 @@ interface Channel {
 }
 
 const ROW_ONE: Channel[] = [
-  { id: 'sky-sports-me', name: 'Sky Sports Main Event', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Sky_Sports_Main_Event_-_Logo_2025.svg/200px-Sky_Sports_Main_Event_-_Logo_2025.svg.png', category: 'Sports' },
-  { id: 'sky-sports-pl', name: 'Sky Sports Premier League', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sky_Sports_Football_-_Logo_2025.svg/200px-Sky_Sports_Football_-_Logo_2025.svg.png', category: 'Sports' },
-  { id: 'tnt-sports', name: 'TNT Sports 1', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/TNT_Sports_%282023%29.svg/200px-TNT_Sports_%282023%29.svg.png', category: 'Sports' },
-  { id: 'sky-sports-f1', name: 'Sky Sports F1', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Sky_Sports_2025.svg/200px-Sky_Sports_2025.svg.png', category: 'Sports' },
-  { id: 'bbc-one', name: 'BBC One London', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/BBC_One_logo.svg/200px-BBC_One_logo.svg.png', category: 'Entertainment' },
-  { id: 'itv1', name: 'ITV1 London', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/ITV1_Logo_2022.svg/200px-ITV1_Logo_2022.svg.png', category: 'Entertainment' },
-  { id: 'channel-4', name: 'Channel 4', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Channel_4_Logo_2023.svg/200px-Channel_4_Logo_2023.svg.png', category: 'Entertainment' },
+  { id: 'sky-sports-me', name: 'Sky Sports Main Event', logo: '/logos/sky-sports-main-event.png', category: 'Sports' },
+  { id: 'sky-sports-pl', name: 'Sky Sports Premier League', logo: '/logos/sky-sports.png', category: 'Sports' },
+  { id: 'tnt-sports', name: 'TNT Sports 1', logo: '/logos/tnt-sports.png', category: 'Sports' },
+  { id: 'sky-sports-f1', name: 'Sky Sports F1', logo: '/logos/sky-sports-f1.png', category: 'Sports' },
+  { id: 'bbc-one', name: 'BBC One London', logo: '/logos/bbc-one.png', category: 'Entertainment' },
+  { id: 'itv1', name: 'ITV1 London', logo: '/logos/itv1.png', category: 'Entertainment' },
+  { id: 'channel-4', name: 'Channel 4', logo: '/logos/channel-4.png', category: 'Entertainment' },
 ];
 
 const ROW_TWO: Channel[] = [
-  { id: 'sky-cinema-premiere', name: 'Sky Cinema Premiere', logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Sky_Cinema_Premiere_2024_logo.svg/200px-Sky_Cinema_Premiere_2024_logo.svg.png', category: 'Movies' },
-  { id: 'sky-cinema', name: 'Sky Cinema Action', logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Sky_Cinema_Premiere_2024_logo.svg/200px-Sky_Cinema_Premiere_2024_logo.svg.png', category: 'Movies' },
-  { id: 'discovery', name: 'Discovery Channel UK', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/The_Discovery_Channel_logo.svg/200px-The_Discovery_Channel_logo.svg.png', category: 'Documentary' },
-  { id: 'nat-geo', name: 'National Geographic UK', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/National_Geographic_Channel.svg/200px-National_Geographic_Channel.svg.png', category: 'Documentary' },
-  { id: 'sky-news', name: 'Sky News', logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sky_News_logo.svg/200px-Sky_News_logo.svg.png', category: 'News' },
-  { id: 'bbc-news', name: 'BBC News Channel', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/BBC_News_2022.svg/200px-BBC_News_2022.svg.png', category: 'News' },
-  { id: 'sky-sports-me2', name: 'Sky Sports Main Event', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Sky_Sports_Main_Event_-_Logo_2025.svg/200px-Sky_Sports_Main_Event_-_Logo_2025.svg.png', category: 'Sports' },
+  { id: 'sky-cinema-premiere', name: 'Sky Cinema Premiere', logo: '/logos/sky-cinema-premiere.png', category: 'Movies' },
+  { id: 'sky-cinema', name: 'Sky Cinema Action', logo: '/logos/sky-cinema.png', category: 'Movies' },
+  { id: 'discovery', name: 'Discovery Channel UK', logo: '/logos/discovery.png', category: 'Documentary' },
+  { id: 'nat-geo', name: 'National Geographic UK', logo: '/logos/nat-geo.png', category: 'Documentary' },
+  { id: 'sky-news', name: 'Sky News', logo: '/logos/sky-news.png', category: 'News' },
+  { id: 'bbc-news', name: 'BBC News Channel', logo: '/logos/bbc-news.png', category: 'News' },
+  { id: 'sky-sports-me2', name: 'Sky Sports Main Event', logo: '/logos/sky-sports-main-event.png', category: 'Sports' },
 ];
 
 const CATEGORY_COLORS: Record<string, string> = {
@@ -44,7 +44,6 @@ function ChannelCard({ channel }: { channel: Channel }) {
           alt={channel.name}
           className="max-h-10 max-w-[120px] w-auto object-contain"
           referrerPolicy="no-referrer"
-          style={{ filter: 'brightness(0) saturate(100%) invert(15%) sepia(100%) saturate(600%) hue-rotate(340deg)' }}
           onError={(e) => {
             (e.currentTarget as HTMLImageElement).style.display = 'none';
             const fallback = e.currentTarget.nextElementSibling as HTMLElement;
