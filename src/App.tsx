@@ -2,7 +2,6 @@ import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import PricingSection from './components/PricingSection';
-import NetworkTester from './components/NetworkTester';
 import SetupHelper from './components/SetupHelper';
 import FaqSection from './components/FaqSection';
 import CheckoutModal from './components/CheckoutModal';
@@ -44,7 +43,6 @@ export default function App() {
         <TrendingFilms />
         <ChannelLogosSlider />
         <PricingSection onOpenCheckout={handleOpenCheckout} />
-        <NetworkTester />
         <SetupHelper />
         <FaqSection />
       </main>
