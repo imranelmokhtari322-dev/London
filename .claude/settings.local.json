@@ -31,7 +31,12 @@
       "Bash(/usr/local/bin/git --version)",
       "Bash(npx vercel *ecte na)",
       "Bash(git -C /Users/macbookpro/Downloads/iptv-london remote -v)",
-      "Bash(node *)"
+      "Bash(node *)",
+      "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre 3/download.png\" /Users/macbookpro/Downloads/iptv-london/public/logos/sky-sports-main-event.png)",
+      "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre 3/download-1.png\" /Users/macbookpro/Downloads/iptv-london/public/logos/sky-sports.png)",
+      "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre 3/download-2.png\" /Users/macbookpro/Downloads/iptv-london/public/logos/tnt-sports.png)",
+      "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre 3/download-3.png\" /Users/macbookpro/Downloads/iptv-london/public/logos/sky-sports-f1.png)",
+      "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre 3/download-4.png\" /Users/macbookpro/Downloads/iptv-london/public/logos/itv1.png)"
     ]
   }
 }

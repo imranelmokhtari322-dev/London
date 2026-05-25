@@ -3,84 +3,78 @@ import { Tv } from 'lucide-react';
 const ROW_ONE = [
   {
     id: 'bbc-one',
-    name: 'BBC One',
+    name: 'BBC HD',
     category: 'Free-to-Air',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/BBC_One_logo.svg/200px-BBC_One_logo.svg.png',
+    logo: '/logos/bbc-hd.png',
   },
   {
     id: 'itv1',
     name: 'ITV1',
     category: 'Free-to-Air',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/ITV1_Logo_2022.svg/200px-ITV1_Logo_2022.svg.png',
+    logo: '/logos/itv1.png',
   },
   {
     id: 'channel-4',
     name: 'Channel 4',
     category: 'Free-to-Air',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Channel_4_Logo_2023.svg/200px-Channel_4_Logo_2023.svg.png',
+    logo: '/logos/channel-4.png',
   },
   {
     id: 'sky-sports',
     name: 'Sky Sports',
     category: 'Sports',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Sky_Sports_2025.svg/200px-Sky_Sports_2025.svg.png',
+    logo: '/logos/sky-sports.png',
   },
   {
     id: 'sky-sports-main-event',
     name: 'Sky Sports Main Event',
     category: 'Sports',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Sky_Sports_Main_Event_-_Logo_2025.svg/200px-Sky_Sports_Main_Event_-_Logo_2025.svg.png',
+    logo: '/logos/sky-sports-main-event.png',
   },
   {
-    id: 'sky-sports-football',
-    name: 'Sky Sports Football',
+    id: 'sky-sports-f1',
+    name: 'Sky Sports F1',
     category: 'Sports',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sky_Sports_Football_-_Logo_2025.svg/200px-Sky_Sports_Football_-_Logo_2025.svg.png',
+    logo: '/logos/sky-sports-f1.png',
   },
   {
     id: 'tnt-sports',
-    name: 'TNT Sports',
+    name: 'TNT Sports 1',
     category: 'Sports',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/TNT_Sports_%282023%29.svg/200px-TNT_Sports_%282023%29.svg.png',
+    logo: '/logos/tnt-sports.png',
   },
 ];
 
 const ROW_TWO = [
   {
-    id: 'bbc-two',
-    name: 'BBC Two',
-    category: 'Free-to-Air',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/200px-BBC_Two_logo_2021.svg.png',
-  },
-  {
-    id: 'sky-atlantic',
-    name: 'Sky Atlantic',
-    category: 'Entertainment',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sky_Atlantic_-_Logo_2020.svg/200px-Sky_Atlantic_-_Logo_2020.svg.png',
-  },
-  {
-    id: 'sky-cinema',
-    name: 'Sky Cinema Premiere',
-    category: 'Movies',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Sky_Cinema_Premiere_2024_logo.svg/200px-Sky_Cinema_Premiere_2024_logo.svg.png',
+    id: 'bbc-news',
+    name: 'BBC News',
+    category: 'News',
+    logo: '/logos/bbc-news.png',
   },
   {
     id: 'sky-news',
     name: 'Sky News',
     category: 'News',
-    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Sky_News_logo.svg/200px-Sky_News_logo.svg.png',
+    logo: '/logos/sky-news.png',
+  },
+  {
+    id: 'sky-cinema',
+    name: 'Sky Cinema Action',
+    category: 'Movies',
+    logo: '/logos/sky-cinema.png',
   },
   {
     id: 'nat-geo',
     name: 'National Geographic',
     category: 'Documentary',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/National_Geographic_Channel.svg/200px-National_Geographic_Channel.svg.png',
+    logo: '/logos/nat-geo.png',
   },
   {
     id: 'discovery',
     name: 'Discovery Channel',
     category: 'Documentary',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/The_Discovery_Channel_logo.svg/200px-The_Discovery_Channel_logo.svg.png',
+    logo: '/logos/discovery.png',
   },
 ];
 
