@@ -75,20 +75,20 @@ export default function ChannelLogosSlider() {
   return (
     <section
       id="channel-logos"
-      className="bg-white py-16 px-4 sm:px-6 lg:px-8 border-b border-neutral-200"
+      className="bg-black py-16 px-4 sm:px-6 lg:px-8 border-b border-neutral-800"
     >
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
           <div className="space-y-2">
-            <div className="inline-flex items-center gap-1.5 font-mono text-[9px] text-neutral-600 bg-neutral-100 border border-neutral-300 px-2.5 py-1 rounded-full uppercase tracking-widest">
+            <div className="inline-flex items-center gap-1.5 font-mono text-[9px] text-neutral-400 bg-neutral-900 border border-neutral-800 px-2.5 py-1 rounded-full uppercase tracking-widest">
               <Tv className="w-2.5 h-2.5" />
               18,500+ Live Channels Available
             </div>
-            <h2 className="font-serif italic text-3xl sm:text-5xl text-neutral-900 tracking-tight">
+            <h2 className="font-serif italic text-3xl sm:text-5xl text-white tracking-tight">
               Premium UK Channel Lineup
             </h2>
-            <p className="font-sans text-xs text-neutral-500 max-w-md leading-relaxed">
+            <p className="font-sans text-xs text-neutral-400 max-w-md leading-relaxed">
               From live Premier League to HBO dramas — every major UK broadcaster and premium package included.
             </p>
           </div>
