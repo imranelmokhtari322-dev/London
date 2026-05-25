@@ -29,7 +29,9 @@
       "Bash(brew --version)",
       "Bash(/opt/homebrew/bin/git --version)",
       "Bash(/usr/local/bin/git --version)",
-      "Bash(npx vercel *ecte na)"
+      "Bash(npx vercel *ecte na)",
+      "Bash(git -C /Users/macbookpro/Downloads/iptv-london remote -v)",
+      "Bash(node *)"
     ]
   }
 }
