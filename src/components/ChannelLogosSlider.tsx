@@ -37,7 +37,7 @@ const CATEGORY_COLORS: Record<string, string> = {
 
 function ChannelCard({ channel }: { channel: Channel }) {
   return (
-    <div className="shrink-0 w-44 mx-2 bg-white border border-black rounded-2xl p-4 flex flex-col items-center justify-center gap-3 shadow-sm hover:shadow-md transition-all duration-200 group">
+    <div className="shrink-0 w-44 mx-2 bg-white border border-white rounded-2xl p-4 flex flex-col items-center justify-center gap-3 shadow-sm hover:shadow-md transition-all duration-200 group">
       <div className="h-12 flex items-center justify-center">
         <img
           src={channel.logo}
