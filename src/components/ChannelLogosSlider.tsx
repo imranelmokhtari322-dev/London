@@ -12,19 +12,19 @@ const ROW_ONE: Channel[] = [
   { id: 'sky-sports-pl', name: 'Sky Sports Premier League', logo: '/logos/sky-sports.png', category: 'Sports' },
   { id: 'tnt-sports', name: 'TNT Sports 1', logo: '/logos/tnt-sports.png', category: 'Sports' },
   { id: 'sky-sports-f1', name: 'Sky Sports F1', logo: '/logos/sky-sports-f1.png', category: 'Sports' },
+  { id: 'bbc-one', name: 'BBC One London', logo: '/logos/bbc-one.png', category: 'Entertainment' },
   { id: 'itv1', name: 'ITV1 London', logo: '/logos/itv1.png', category: 'Entertainment' },
   { id: 'channel-4', name: 'Channel 4', logo: '/logos/channel-4.png', category: 'Entertainment' },
-  { id: 'bbc-hd', name: 'BBC One London', logo: '/logos/bbc-hd.png', category: 'Entertainment' },
 ];
 
 const ROW_TWO: Channel[] = [
+  { id: 'sky-cinema-premiere', name: 'Sky Cinema Premiere', logo: '/logos/sky-cinema-premiere.png', category: 'Movies' },
   { id: 'sky-cinema', name: 'Sky Cinema Action', logo: '/logos/sky-cinema.png', category: 'Movies' },
   { id: 'discovery', name: 'Discovery Channel UK', logo: '/logos/discovery.png', category: 'Documentary' },
   { id: 'nat-geo', name: 'National Geographic UK', logo: '/logos/nat-geo.png', category: 'Documentary' },
   { id: 'sky-news', name: 'Sky News', logo: '/logos/sky-news.png', category: 'News' },
   { id: 'bbc-news', name: 'BBC News Channel', logo: '/logos/bbc-news.png', category: 'News' },
   { id: 'sky-sports-me2', name: 'Sky Sports Main Event', logo: '/logos/sky-sports-main-event.png', category: 'Sports' },
-  { id: 'tnt-sports2', name: 'TNT Sports 1', logo: '/logos/tnt-sports.png', category: 'Sports' },
 ];
 
 const CATEGORY_COLORS: Record<string, string> = {

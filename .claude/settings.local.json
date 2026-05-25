@@ -36,7 +36,13 @@
       "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre 3/download-1.png\" /Users/macbookpro/Downloads/iptv-london/public/logos/sky-sports.png)",
       "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre 3/download-2.png\" /Users/macbookpro/Downloads/iptv-london/public/logos/tnt-sports.png)",
       "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre 3/download-3.png\" /Users/macbookpro/Downloads/iptv-london/public/logos/sky-sports-f1.png)",
-      "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre 3/download-4.png\" /Users/macbookpro/Downloads/iptv-london/public/logos/itv1.png)"
+      "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre 3/download-4.png\" /Users/macbookpro/Downloads/iptv-london/public/logos/itv1.png)",
+      "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre/Capture d'écran 2026-05-25 à 13.33.34.png\" /tmp/img1.png)",
+      "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre/Capture d'écran 2026-05-25 à 13.33.45.png\" /tmp/img2.png)",
+      "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre/Capture d'écran 2026-05-25 à 13.33.56.png\" /tmp/img3.png)",
+      "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre/Capture d'écran 2026-05-25 à 13.34.02.png\" /tmp/img4.png)",
+      "Bash(cp \"/Users/macbookpro/Desktop/dossier sans titre/Capture d'écran 2026-05-25 à 13.34.07.png\" /tmp/img5.png)",
+      "Bash(xxd)"
     ]
   }
 }
