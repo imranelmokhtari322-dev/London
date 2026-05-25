@@ -37,12 +37,12 @@ const CATEGORY_COLORS: Record<string, string> = {
 
 function ChannelCard({ channel }: { channel: Channel }) {
   return (
-    <div className="shrink-0 w-44 mx-2 bg-white border border-neutral-200 rounded-2xl p-4 flex flex-col items-center justify-center gap-3 shadow-sm hover:shadow-md transition-all duration-200 group">
-      <div className="h-28 flex items-center justify-center">
+    <div className="shrink-0 w-36 sm:w-44 mx-2 bg-white border border-neutral-200 rounded-2xl p-4 flex flex-col items-center justify-center gap-3 shadow-sm hover:shadow-md transition-all duration-200 group">
+      <div className="h-20 sm:h-28 flex items-center justify-center">
         <img
           src={channel.logo}
           alt={channel.name}
-          className="max-h-24 max-w-[200px] w-full object-contain"
+          className="max-h-16 sm:max-h-24 max-w-[160px] sm:max-w-[200px] w-full object-contain"
           referrerPolicy="no-referrer"
           onError={(e) => {
             (e.currentTarget as HTMLImageElement).style.display = 'none';

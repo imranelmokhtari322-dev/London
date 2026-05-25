@@ -71,7 +71,7 @@ export default function CheckoutModal({ isOpen, selectedPlanId, onClose }: Check
 
             {/* Plan selection */}
             <div className="space-y-1.5">
-              <label className="font-mono text-[9px] text-neutral-500 uppercase tracking-wider">Configure IPTV London Package:</label>
+              <label className="font-mono text-[10px] text-neutral-500 uppercase tracking-wider">Configure IPTV London Package:</label>
               <select
                 id="checkout-plan-selector"
                 value={planId}
@@ -86,7 +86,7 @@ export default function CheckoutModal({ isOpen, selectedPlanId, onClose }: Check
 
             {/* Delivery Method */}
             <div className="space-y-1.5">
-              <label className="font-mono text-[9px] text-neutral-500 uppercase tracking-wider">Choose Delivery Activation Method:</label>
+              <label className="font-mono text-[10px] text-neutral-500 uppercase tracking-wider">Choose Delivery Activation Method:</label>
               <div className="grid grid-cols-2 gap-3">
                 <button
                   type="button"
@@ -126,7 +126,7 @@ export default function CheckoutModal({ isOpen, selectedPlanId, onClose }: Check
             {/* Contact Field */}
             {deliveryMethod === 'whatsapp' ? (
               <div className="space-y-1.5">
-                <label className="font-mono text-[9px] text-neutral-500 uppercase tracking-wider">
+                <label className="font-mono text-[10px] text-neutral-500 uppercase tracking-wider">
                   UK Mobile / WhatsApp Number (Required):
                 </label>
                 <input
@@ -142,7 +142,7 @@ export default function CheckoutModal({ isOpen, selectedPlanId, onClose }: Check
               </div>
             ) : (
               <div className="space-y-1.5">
-                <label className="font-mono text-[9px] text-neutral-500 uppercase tracking-wider">
+                <label className="font-mono text-[10px] text-neutral-500 uppercase tracking-wider">
                   Contact Email Address (Required):
                 </label>
                 <input
@@ -159,9 +159,9 @@ export default function CheckoutModal({ isOpen, selectedPlanId, onClose }: Check
             )}
 
             {/* Device + MAC */}
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div className="space-y-1.5">
-                <label className="font-mono text-[9px] text-neutral-500 uppercase tracking-wider">Active Device:</label>
+                <label className="font-mono text-[10px] text-neutral-500 uppercase tracking-wider">Active Device:</label>
                 <select
                   id="checkout-device-selector"
                   value={deviceType}
@@ -178,7 +178,7 @@ export default function CheckoutModal({ isOpen, selectedPlanId, onClose }: Check
 
               {deviceType === 'smart-tv' ? (
                 <div className="space-y-1.5">
-                  <label className="font-mono text-[9px] text-neutral-500 uppercase tracking-wider">MAC Address (Optional):</label>
+                  <label className="font-mono text-[10px] text-neutral-500 uppercase tracking-wider">MAC Address (Optional):</label>
                   <input
                     id="input-mac-address"
                     type="text"
@@ -190,7 +190,7 @@ export default function CheckoutModal({ isOpen, selectedPlanId, onClose }: Check
                 </div>
               ) : (
                 <div className="space-y-1.5 opacity-40 select-none">
-                  <label className="font-mono text-[9px] text-neutral-600 uppercase tracking-wider">MAC Address Option:</label>
+                  <label className="font-mono text-[10px] text-neutral-600 uppercase tracking-wider">MAC Address Option:</label>
                   <input
                     type="text"
                     disabled

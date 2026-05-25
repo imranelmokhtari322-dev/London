@@ -40,7 +40,7 @@ export default function PricingSection({ onOpenCheckout }: PricingSectionProps) 
               id={`plan-card-${plan.id}`}
               className={`group relative rounded-2xl p-8 border transition-all duration-300 flex flex-col justify-between overflow-hidden ${
                 plan.recommended
-                  ? 'bg-neutral-900 border-red-700 shadow-2xl shadow-red-950/40 scale-[1.03] md:scale-[1.05] z-10'
+                  ? 'bg-neutral-900 border-red-700 shadow-2xl shadow-red-950/40 md:scale-[1.05] z-10'
                   : 'bg-neutral-900 border-neutral-800 hover:border-neutral-600 shadow-sm hover:shadow-md'
               }`}
             >

@@ -31,7 +31,7 @@ export default function App() {
       className="min-h-screen bg-black text-white selection:bg-red-700 selection:text-white font-sans antialiased"
     >
       {/* Upper alert bar */}
-      <div className="bg-red-700 text-white py-1.5 px-4 text-center text-[10px] font-mono tracking-widest uppercase relative z-50 flex items-center justify-center gap-1.5">
+      <div className="bg-red-700 text-white py-1.5 px-4 text-center text-[9px] sm:text-[10px] font-mono tracking-widest uppercase relative z-50 flex items-center justify-center gap-1.5">
         <span className="h-1.5 w-1.5 bg-white rounded-full animate-ping" />
         DIRECT FEED ACTIVE FOR ALL SATURDAY 3PM EPL MATCHES & BOXING PPV. CHOOSE & GO.
       </div>
@@ -52,8 +52,8 @@ export default function App() {
         id="app-classic-footer"
         className="bg-neutral-950 py-16 px-4 sm:px-6 lg:px-8 border-t border-neutral-800"
       >
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 text-left">
-          <div className="space-y-4 md:col-span-2">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-left">
+          <div className="space-y-4 sm:col-span-2 md:col-span-2">
             <h3 className="font-display text-2xl text-white tracking-wider uppercase">
               IPTV London
             </h3>

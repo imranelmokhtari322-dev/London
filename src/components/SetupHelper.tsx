@@ -40,9 +40,9 @@ export default function SetupHelper() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
         {/* Tabs */}
-        <div className="lg:col-span-4 flex flex-col gap-2">
+        <div className="md:col-span-4 flex flex-col gap-2">
           <span className="font-mono text-[9px] text-neutral-500 uppercase tracking-widest text-left mb-2 pl-2">
             Select Your Streaming Device:
           </span>
@@ -73,7 +73,7 @@ export default function SetupHelper() {
         </div>
 
         {/* Step contents */}
-        <div className="lg:col-span-8 bg-neutral-900 border border-neutral-800 rounded-2xl p-6 sm:p-8 space-y-6 text-left relative">
+        <div className="md:col-span-8 bg-neutral-900 border border-neutral-800 rounded-2xl p-6 sm:p-8 space-y-6 text-left relative">
           <div className="flex items-center justify-between border-b border-neutral-800 pb-4">
             <div className="flex items-center gap-2">
               <Terminal className="w-4 h-4 text-red-500 animate-pulse" />
@@ -106,8 +106,8 @@ export default function SetupHelper() {
                   </p>
 
                   {step.code && (
-                    <div className="mt-3 bg-black border border-neutral-800 rounded-lg p-3 flex items-center justify-between gap-4 font-mono text-xs text-neutral-300">
-                      <span className="truncate select-all">{step.code}</span>
+                    <div className="mt-3 bg-black border border-neutral-800 rounded-lg p-3 flex items-center justify-between gap-4 font-mono text-xs text-neutral-300 overflow-x-auto">
+                      <span className="select-all whitespace-nowrap">{step.code}</span>
                       <button
                         id={`btn-copy-${activeDevice}-${idx}`}
                         onClick={() => handleCopy(step.code!)}

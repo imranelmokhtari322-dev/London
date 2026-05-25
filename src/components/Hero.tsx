@@ -46,7 +46,7 @@ export default function Hero({ onScrollTo, onOpenCheckout }: HeroProps) {
       <div className="relative z-10 w-full max-w-5xl px-6 pt-16 text-center">
         <div className="inline-flex items-center gap-1.5 bg-black/60 border border-amber-700/40 rounded-full px-3 py-1 mb-6 text-amber-400 backdrop-blur-md shadow-sm shadow-amber-900/20">
           <Sparkles className="w-3.5 h-3.5 text-amber-400 animate-pulse" />
-          <span className="font-mono text-[9px] uppercase tracking-widest">Enhanced Ultra-HD 4.0 Launch</span>
+          <span className="font-mono text-[10px] uppercase tracking-widest">Enhanced Ultra-HD 4.0 Launch</span>
         </div>
 
         <h1
@@ -64,7 +64,7 @@ export default function Hero({ onScrollTo, onOpenCheckout }: HeroProps) {
       </div>
 
       {/* Bottom Container */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 pb-12 grid grid-cols-1 md:grid-cols-12 gap-6 items-end">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 pb-8 sm:pb-12 grid grid-cols-1 md:grid-cols-12 gap-6 items-end">
 
         {/* Frosted dark card bottom-left */}
         <div className="md:col-span-5 bg-black/60 backdrop-blur-xl border border-neutral-700/60 rounded-2xl p-6 shadow-2xl shadow-black/60 space-y-4 text-left">
