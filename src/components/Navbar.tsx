@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Shield, Radio, Activity, Menu, X, Clock, HelpCircle } from 'lucide-react';
+import { Shield, Play, Activity, Menu, X, Clock, HelpCircle } from 'lucide-react';
 
 interface NavbarProps {
   onScrollTo: (sectionId: string) => void;
@@ -51,7 +51,7 @@ export default function Navbar({ onScrollTo, onOpenCheckout }: NavbarProps) {
           {/* Brand */}
           <div className="flex items-center gap-3">
             <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-red-700 border border-red-600 select-none">
-              <Radio className="w-5 h-5 text-white animate-pulse" />
+              <Play className="w-5 h-5 text-white fill-white" />
             </div>
             <div className="flex flex-col">
               <span className="font-sans font-bold tracking-tight text-white text-base">
