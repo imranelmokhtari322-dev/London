@@ -1,6 +1,6 @@
 import { Tv } from 'lucide-react';
 
-const RED_FILTER = 'sepia(1) saturate(4) hue-rotate(310deg) brightness(0.65)';
+const RED_FILTER = 'brightness(0) invert(1)';
 
 interface Channel {
   name: string;
@@ -38,7 +38,7 @@ const NEWS: Channel[] = [
 
 function ChannelCard({ channel }: { channel: Channel }) {
   return (
-    <div className="bg-white rounded-xl p-4 flex flex-col items-center justify-center gap-3 border border-neutral-200">
+    <div className="bg-neutral-900 rounded-xl p-4 flex flex-col items-center justify-center gap-3 border border-neutral-700">
       <div className="h-12 flex items-center justify-center">
         <img
           src={channel.logo}
@@ -55,7 +55,7 @@ function ChannelCard({ channel }: { channel: Channel }) {
           <Tv className="w-8 h-8 text-red-800" />
         </div>
       </div>
-      <p className="font-sans text-[10px] font-semibold text-neutral-700 text-center leading-tight">
+      <p className="font-sans text-[10px] font-semibold text-neutral-300 text-center leading-tight">
         {channel.number}. {channel.name}
       </p>
     </div>
