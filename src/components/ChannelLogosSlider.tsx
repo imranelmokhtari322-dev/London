@@ -89,7 +89,7 @@ const CATEGORY_COLORS: Record<string, string> = {
 
 function LogoCard({ name, logo, category }: { name: string; logo: string; category: string }) {
   return (
-    <div className="shrink-0 w-40 mx-2 bg-white border border-neutral-200 rounded-2xl p-4 flex flex-col items-center justify-center gap-3 shadow-sm hover:border-neutral-400 hover:shadow-md transition-all duration-200 group">
+    <div className="shrink-0 w-40 mx-2 bg-neutral-900 border border-neutral-800 rounded-2xl p-4 flex flex-col items-center justify-center gap-3 shadow-md hover:border-neutral-600 hover:bg-neutral-800 transition-colors duration-200 group">
       <div className="h-12 flex items-center justify-center">
         <img
           src={logo}
@@ -136,19 +136,19 @@ export default function ChannelLogosSlider() {
   return (
     <section
       id="channel-logos"
-      className="bg-white py-16 px-0 border-b border-neutral-200 overflow-hidden"
+      className="bg-black py-16 px-0 border-b border-neutral-800 overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
           <div className="space-y-2">
-            <div className="inline-flex items-center gap-1.5 font-mono text-[9px] text-neutral-500 bg-neutral-100 border border-neutral-200 px-2.5 py-1 rounded-full uppercase tracking-widest">
+            <div className="inline-flex items-center gap-1.5 font-mono text-[9px] text-neutral-400 bg-neutral-900 border border-neutral-800 px-2.5 py-1 rounded-full uppercase tracking-widest">
               <Tv className="w-2.5 h-2.5" />
               18,500+ Live Channels Available
             </div>
-            <h2 className="font-serif italic text-3xl sm:text-5xl text-neutral-900 tracking-tight">
+            <h2 className="font-serif italic text-3xl sm:text-5xl text-white tracking-tight">
               Premium UK Channel Lineup
             </h2>
-            <p className="font-sans text-xs text-neutral-500 max-w-md leading-relaxed">
+            <p className="font-sans text-xs text-neutral-400 max-w-md leading-relaxed">
               From live Premier League to HBO dramas — every major UK broadcaster and premium package included.
             </p>
           </div>
@@ -156,7 +156,7 @@ export default function ChannelLogosSlider() {
             {['Sports', 'Entertainment', 'Movies', 'News', 'Free-to-Air', 'Documentary'].map((cat) => (
               <span
                 key={cat}
-                className={`font-mono text-[8px] uppercase tracking-wider px-2 py-0.5 rounded-full border border-neutral-200 bg-neutral-100 ${CATEGORY_COLORS[cat]}`}
+                className={`font-mono text-[8px] uppercase tracking-wider px-2 py-0.5 rounded-full border border-neutral-800 bg-neutral-900 ${CATEGORY_COLORS[cat]}`}
               >
                 {cat}
               </span>
