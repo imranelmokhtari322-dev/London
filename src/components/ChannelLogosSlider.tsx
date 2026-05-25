@@ -38,11 +38,11 @@ const CATEGORY_COLORS: Record<string, string> = {
 function ChannelCard({ channel }: { channel: Channel }) {
   return (
     <div className="shrink-0 w-44 mx-2 bg-white border border-neutral-200 rounded-2xl p-4 flex flex-col items-center justify-center gap-3 shadow-sm hover:shadow-md transition-all duration-200 group">
-      <div className="h-12 flex items-center justify-center">
+      <div className="h-20 flex items-center justify-center">
         <img
           src={channel.logo}
           alt={channel.name}
-          className="max-h-10 max-w-[120px] w-auto object-contain"
+          className="max-h-16 max-w-[160px] w-auto object-contain"
           referrerPolicy="no-referrer"
           onError={(e) => {
             (e.currentTarget as HTMLImageElement).style.display = 'none';
