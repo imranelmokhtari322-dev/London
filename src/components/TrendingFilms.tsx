@@ -1147,7 +1147,7 @@ export default function TrendingFilms() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
 
           {/* Poster */}
-          <div className="md:col-span-4 flex justify-center md:justify-start">
+          <div className="md:col-span-4 flex justify-center md:justify-start items-start">
             <AnimatePresence mode="wait" custom={direction}>
               <motion.div
                 key={film.id + '-poster'}

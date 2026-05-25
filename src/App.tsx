@@ -28,12 +28,13 @@ export default function App() {
   return (
     <div
       id="app-root-container"
-      className="min-h-screen bg-black text-white selection:bg-red-700 selection:text-white font-sans antialiased"
+      className="min-h-screen bg-black text-white selection:bg-red-700 selection:text-white font-sans antialiased overflow-x-hidden"
     >
       {/* Upper alert bar */}
       <div className="bg-red-700 text-white py-1.5 px-4 text-center text-[9px] sm:text-[10px] font-mono tracking-widest uppercase relative z-50 flex items-center justify-center gap-1.5">
         <span className="h-1.5 w-1.5 bg-white rounded-full animate-ping" />
-        DIRECT FEED ACTIVE FOR ALL SATURDAY 3PM EPL MATCHES & BOXING PPV. CHOOSE & GO.
+        <span className="hidden sm:inline">DIRECT FEED ACTIVE FOR ALL SATURDAY 3PM EPL MATCHES & BOXING PPV. CHOOSE & GO.</span>
+        <span className="sm:hidden">LIVE FEED ACTIVE · SAT 3PM EPL & PPV</span>
       </div>
 
       <Navbar onScrollTo={handleScrollTo} onOpenCheckout={handleOpenCheckout} />

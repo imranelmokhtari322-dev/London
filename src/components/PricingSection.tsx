@@ -31,14 +31,14 @@ export default function PricingSection({ onOpenCheckout }: PricingSectionProps) 
       {/* Plans Grid */}
       <div
         id="plans-container-grid"
-        className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch relative z-10"
+        className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-8 items-stretch relative z-10"
       >
         {PLANS.map((plan: SubscriptionPlan) => {
           return (
             <div
               key={plan.id}
               id={`plan-card-${plan.id}`}
-              className={`group relative rounded-2xl p-8 border transition-all duration-300 flex flex-col justify-between overflow-hidden ${
+              className={`group relative rounded-2xl p-5 sm:p-8 border transition-all duration-300 flex flex-col justify-between overflow-hidden ${
                 plan.recommended
                   ? 'bg-neutral-900 border-red-700 shadow-2xl shadow-red-950/40 md:scale-[1.05] z-10'
                   : 'bg-neutral-900 border-neutral-800 hover:border-neutral-600 shadow-sm hover:shadow-md'
@@ -52,7 +52,7 @@ export default function PricingSection({ onOpenCheckout }: PricingSectionProps) 
               )}
 
               <div className="relative z-10 text-left">
-                <div className="flex items-center justify-between gap-2 mb-6">
+                <div className="flex items-center justify-between gap-2 mb-4 sm:mb-6">
                   <span className="font-mono text-[10px] text-neutral-400 uppercase tracking-widest">
                     {plan.name}
                   </span>
@@ -80,7 +80,7 @@ export default function PricingSection({ onOpenCheckout }: PricingSectionProps) 
                 </div>
 
                 <p className="font-mono text-[10px] text-neutral-500 uppercase tracking-wider mb-4">Includes:</p>
-                <ul className="space-y-3 mb-8">
+                <ul className="space-y-2.5 mb-5 sm:mb-8">
                   {plan.features.map((feature, featureIndex) => (
                     <li
                       key={featureIndex}

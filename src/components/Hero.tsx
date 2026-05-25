@@ -49,7 +49,7 @@ export default function Hero({ onScrollTo, onOpenCheckout }: HeroProps) {
 
         <h1
           id="hero-main-title"
-          className="font-display text-5xl sm:text-7xl md:text-9xl text-white leading-none tracking-wide select-none drop-shadow-2xl uppercase"
+          className="font-display text-4xl sm:text-6xl md:text-9xl text-white leading-none tracking-wide select-none drop-shadow-2xl uppercase"
         >
           The Premium Broadcaster <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-b from-amber-300 via-amber-400 to-amber-600">
@@ -62,10 +62,10 @@ export default function Hero({ onScrollTo, onOpenCheckout }: HeroProps) {
       </div>
 
       {/* Bottom Container */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 pb-8 sm:pb-12 grid grid-cols-1 md:grid-cols-12 gap-6 items-end">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 pb-6 sm:pb-12 grid grid-cols-1 md:grid-cols-12 gap-4 sm:gap-6 items-end">
 
         {/* Frosted dark card bottom-left */}
-        <div className="md:col-span-5 bg-black/60 backdrop-blur-xl border border-neutral-700/60 rounded-2xl p-6 shadow-2xl shadow-black/60 space-y-4 text-left">
+        <div className="md:col-span-5 bg-black/60 backdrop-blur-xl border border-neutral-700/60 rounded-2xl p-4 sm:p-6 shadow-2xl shadow-black/60 space-y-3 sm:space-y-4 text-left">
           <div className="flex items-center gap-2 font-mono text-[9px] text-amber-500 tracking-wider uppercase">
             <span className="h-1.5 w-1.5 rounded-full bg-red-500 shadow-sm shadow-red-500" />
             Direct CDN Packet Delivery

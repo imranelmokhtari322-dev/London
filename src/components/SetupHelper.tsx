@@ -86,7 +86,7 @@ export default function SetupHelper() {
             </span>
           </div>
 
-          <div className="space-y-6">
+          <div className="space-y-4 sm:space-y-6">
             {currentGuide.steps.map((step, idx) => (
               <div
                 key={idx}
