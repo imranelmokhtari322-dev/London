@@ -1,6 +1,6 @@
 import { Tv } from 'lucide-react';
 
-const RED_FILTER = 'brightness(0) saturate(100%) invert(20%) sepia(100%) saturate(700%) hue-rotate(340deg)';
+const RED_FILTER = 'none';
 
 interface Channel {
   name: string;
