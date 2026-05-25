@@ -84,9 +84,9 @@ export default function ChannelLogosSlider() {
   return (
     <section
       id="channel-logos"
-      className="bg-black py-16 px-0 border-b border-neutral-800 overflow-hidden"
+      className="bg-black py-10 sm:py-16 px-0 border-b border-neutral-800 overflow-hidden"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 sm:mb-10">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
           <div className="space-y-2">
             <div className="inline-flex items-center gap-1.5 font-mono text-[9px] text-neutral-400 bg-neutral-900 border border-neutral-800 px-2.5 py-1 rounded-full uppercase tracking-widest">

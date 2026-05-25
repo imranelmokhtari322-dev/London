@@ -25,9 +25,9 @@ export default function SetupHelper() {
   return (
     <section
       id="setup"
-      className="bg-neutral-950 py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-neutral-800"
+      className="bg-neutral-950 py-10 sm:py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-neutral-800"
     >
-      <div className="text-center space-y-3 mb-12">
+      <div className="text-center space-y-3 mb-8 sm:mb-12">
         <div className="inline-flex items-center gap-1 bg-neutral-900 border border-neutral-800 font-mono text-[9px] text-emerald-400 px-2.5 py-0.5 rounded-full uppercase">
           <BookOpen className="w-2.5 h-2.5" />
           Setup Manual Library

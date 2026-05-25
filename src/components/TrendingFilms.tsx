@@ -1079,10 +1079,10 @@ export default function TrendingFilms() {
   return (
     <section
       id="trending-films"
-      className="bg-neutral-950 py-20 px-4 sm:px-6 lg:px-8 border-b border-neutral-800"
+      className="bg-neutral-950 py-10 sm:py-20 px-4 sm:px-6 lg:px-8 border-b border-neutral-800"
     >
       {/* Film photo banner */}
-      <div className="relative w-full h-56 sm:h-72 rounded-2xl overflow-hidden mb-10">
+      <div className="relative w-full h-40 sm:h-72 rounded-2xl overflow-hidden mb-6 sm:mb-10">
         <img
           src="https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?auto=format&fit=crop&q=80&w=1920"
           alt="Empty Red Cinema Seats"
@@ -1107,7 +1107,7 @@ export default function TrendingFilms() {
       <div className="max-w-7xl mx-auto">
 
         {/* Section header */}
-        <div className="flex items-start justify-between mb-10 gap-4">
+        <div className="flex items-start justify-between mb-6 sm:mb-10 gap-4">
           <div className="space-y-2">
             <div className="inline-flex items-center gap-1.5 font-mono text-[9px] text-amber-400 bg-neutral-900 border border-neutral-800 px-2.5 py-1 rounded-full uppercase tracking-widest">
               <TrendingUp className="w-2.5 h-2.5" />
@@ -1144,7 +1144,7 @@ export default function TrendingFilms() {
         </div>
 
         {/* Featured film */}
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center min-h-[420px]">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
 
           {/* Poster */}
           <div className="md:col-span-4 flex justify-center md:justify-start">
@@ -1157,7 +1157,7 @@ export default function TrendingFilms() {
                 animate="center"
                 exit="exit"
                 transition={{ duration: 0.28, ease: 'easeInOut' }}
-                className="relative w-56 sm:w-64 shrink-0"
+                className="relative w-44 sm:w-56 md:w-64 shrink-0"
               >
                 <img
                   src={film.poster}

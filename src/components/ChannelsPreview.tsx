@@ -27,9 +27,9 @@ export default function ChannelsPreview() {
   return (
     <section
       id="channels"
-      className="bg-white py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-neutral-200"
+      className="bg-white py-10 sm:py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-neutral-200"
     >
-      <div className="text-center space-y-3 mb-12">
+      <div className="text-center space-y-3 mb-8 sm:mb-12">
         <div className="inline-flex items-center gap-1 bg-neutral-100 border border-neutral-200 font-mono text-[9px] text-emerald-600 px-2.5 py-0.5 rounded-full uppercase">
           <Radio className="w-2.5 h-2.5 animate-pulse" />
           Server Status: Fully Loaded

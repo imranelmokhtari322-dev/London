@@ -13,9 +13,9 @@ export default function FaqSection() {
   return (
     <section
       id="faqs"
-      className="bg-black py-24 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto border-b border-neutral-800"
+      className="bg-black py-12 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto border-b border-neutral-800"
     >
-      <div className="text-center space-y-3 mb-16">
+      <div className="text-center space-y-3 mb-8 sm:mb-16">
         <div className="inline-flex items-center gap-1 bg-neutral-900 border border-neutral-700 font-mono text-[9px] text-amber-400 px-2.5 py-0.5 rounded-full uppercase">
           <HelpCircle className="w-2.5 h-2.5" />
           Support Knowledgebase
@@ -64,7 +64,7 @@ export default function FaqSection() {
         })}
       </div>
 
-      <div className="mt-12 text-center space-y-4">
+      <div className="mt-8 sm:mt-12 text-center space-y-4">
         <p className="font-mono text-[10px] text-neutral-600">CANNOT DECRYPT A CONGESTION FLAG OR HAVE OTHER CONCERNS?</p>
         <div className="flex justify-center">
           <a

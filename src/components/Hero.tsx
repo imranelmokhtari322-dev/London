@@ -9,7 +9,7 @@ export default function Hero({ onScrollTo, onOpenCheckout }: HeroProps) {
   return (
     <header
       id="hero-section"
-      className="relative min-h-[90vh] flex flex-col justify-between items-center bg-black overflow-hidden select-none border-b border-neutral-800"
+      className="relative min-h-[90vh] flex flex-col justify-end sm:justify-between items-center bg-black overflow-hidden select-none border-b border-neutral-800"
     >
       {/* Background Movie Image */}
       <div className="absolute inset-0 z-0 film-grain">
@@ -40,10 +40,8 @@ export default function Hero({ onScrollTo, onOpenCheckout }: HeroProps) {
         />
       </div>
 
-      <div className="w-full h-1" />
-
       {/* Main Heading */}
-      <div className="relative z-10 w-full max-w-5xl px-6 pt-16 text-center">
+      <div className="relative z-10 w-full max-w-5xl px-6 pt-10 sm:pt-16 text-center">
         <div className="inline-flex items-center gap-1.5 bg-black/60 border border-amber-700/40 rounded-full px-3 py-1 mb-6 text-amber-400 backdrop-blur-md shadow-sm shadow-amber-900/20">
           <Sparkles className="w-3.5 h-3.5 text-amber-400 animate-pulse" />
           <span className="font-mono text-[10px] uppercase tracking-widest">Enhanced Ultra-HD 4.0 Launch</span>

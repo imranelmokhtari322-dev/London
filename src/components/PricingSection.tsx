@@ -10,12 +10,12 @@ export default function PricingSection({ onOpenCheckout }: PricingSectionProps) 
   return (
     <section
       id="pricing"
-      className="bg-neutral-950 py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-neutral-800 relative"
+      className="bg-neutral-950 py-12 sm:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-b border-neutral-800 relative"
     >
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] rounded-full bg-red-950/30 blur-[120px] pointer-events-none" />
 
       {/* Headings */}
-      <div className="text-center space-y-4 mb-20">
+      <div className="text-center space-y-4 mb-10 sm:mb-20">
         <div className="inline-flex items-center gap-1.5 bg-black border border-neutral-700 rounded-full px-3 py-1 text-amber-400 backdrop-blur-md shadow-sm">
           <ShieldCheck className="w-3.5 h-3.5 text-amber-500" />
           <span className="font-mono text-[9px] uppercase tracking-widest">Transparency Pledge: No Hidden Surcharges</span>
@@ -120,7 +120,7 @@ export default function PricingSection({ onOpenCheckout }: PricingSectionProps) 
       </div>
 
       {/* Transparency Block */}
-      <div className="mt-16 bg-neutral-900 border border-neutral-800 rounded-2xl p-6 sm:p-8 max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 text-left shadow-sm">
+      <div className="mt-8 sm:mt-16 bg-neutral-900 border border-neutral-800 rounded-2xl p-6 sm:p-8 max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 text-left shadow-sm">
         <div>
           <h4 className="font-sans font-bold text-white text-xs mb-1">Instant Delivery Guarantee</h4>
           <p className="font-sans text-[11px] text-neutral-400 leading-relaxed">Activation occurs within 15 minutes of payment clearing. Configuration script parameters load instantly over Email & WhatsApp.</p>
