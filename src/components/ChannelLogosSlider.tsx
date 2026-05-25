@@ -55,7 +55,7 @@ function ChannelCard({ channel }: { channel: Channel }) {
           <Tv className="w-8 h-8 text-red-800" />
         </div>
       </div>
-      <p className="font-sans text-[10px] font-semibold text-neutral-300 text-center leading-tight">
+      <p className="font-sans text-[10px] font-semibold text-red-500 text-center leading-tight">
         {channel.number}. {channel.name}
       </p>
     </div>
