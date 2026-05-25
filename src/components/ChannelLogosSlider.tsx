@@ -37,13 +37,17 @@ const CATEGORY_COLORS: Record<string, string> = {
 
 function ChannelCard({ channel }: { channel: Channel }) {
   return (
-    <div className="shrink-0 w-44 mx-2 bg-white border border-neutral-200 rounded-2xl p-4 flex flex-col items-center justify-center gap-2 shadow-sm hover:shadow-md transition-all duration-200 group">
-      <div className="flex items-center justify-center text-center px-2">
-        <span className="font-sans font-extrabold text-sm text-red-600 leading-tight tracking-tight">
-          {channel.name}
-        </span>
+    <div className="shrink-0 w-44 mx-2 bg-white border border-neutral-200 rounded-2xl p-4 flex flex-col items-center justify-center gap-3 shadow-sm hover:shadow-md transition-all duration-200 group">
+      <div className="h-12 flex items-center justify-center">
+        <img
+          src={channel.logo}
+          alt={channel.name}
+          className="max-h-10 max-w-[120px] w-auto object-contain"
+          style={{ filter: 'brightness(0) saturate(100%) invert(15%) sepia(100%) saturate(600%) hue-rotate(340deg)' }}
+        />
       </div>
-      <div className="text-center">
+      <div className="text-center space-y-0.5">
+        <p className="font-sans text-[11px] font-semibold text-neutral-900 leading-tight">{channel.name}</p>
         <p className={`font-mono text-[8px] uppercase tracking-wider ${CATEGORY_COLORS[channel.category] ?? 'text-red-500'}`}>
           {channel.category}
         </p>
