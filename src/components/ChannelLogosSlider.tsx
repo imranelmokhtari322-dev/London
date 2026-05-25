@@ -55,7 +55,7 @@ function ChannelCard({ channel }: { channel: Channel }) {
         </div>
       </div>
       <div className="text-center space-y-0.5">
-        <p className="font-sans text-[11px] font-semibold text-neutral-900 leading-tight">{channel.name}</p>
+        <p className="font-display text-sm tracking-widest text-neutral-900 leading-tight uppercase">{channel.name}</p>
         <p className={`font-mono text-[8px] uppercase tracking-wider ${CATEGORY_COLORS[channel.category] ?? 'text-red-500'}`}>
           {channel.category}
         </p>
